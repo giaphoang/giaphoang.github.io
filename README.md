@@ -8,21 +8,21 @@
 
 ## Work Experience
 
-**Open Source Contributor @ Stripe (*September 2026 - Present*)**
+**Open Source Contributor @ Google (*Sep 2026 - Present*)**
+
+* Implemented exponential-backoff retries in Google AX’s controller to handle worker resource exhaustion.
+* Enabled concurrent gRPC process I/O with cancellation, EOF handling, and race-tested regression coverage.
+
+**Open Source Contributor @ Stripe (*Jul 2026 - Present*)**
 
 * Resolved three backend issues in Stripe CLI involving API error propagation, resource routing, and metadata serialization.
 * Standardized HTTP error handling across three command paths, returning nonzero exit codes for failed Stripe API requests.
 * Extended Identity Verification Session routing and corrected serialization of punctuated metadata keys.
 
-**Open Source Contributor @ Datadog (*August 2026 - Present*)**
+**Open Source Contributor @ Datadog (*May 2026 - Present*)**
 
 * Standardized AWS ECS cluster-name normalization in Go OpenTelemetry mapping to ensure consistent resource grouping.
 * Fixed a serverless log-flushing race by synchronizing asynchronous batch workers during shutdown to prevent log loss.
-
-**Open Source Contributor @ Google (*July 2026 - Present*)**
-
-* Implemented exponential-backoff retries in Google AX’s controller to handle worker resource exhaustion.
-* Enabled concurrent gRPC process I/O with cancellation, EOF handling, and race-tested regression coverage.
 
 **Software Engineer Intern @ Finbud AI (*January 2025 - September 2025*)**
 
